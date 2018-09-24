@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="MAIN">#0983F6</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="BLACK">#000000</color>
+
+
+
+    <color name="text_title">#222222</color>
+    <color name="text_normal">#333333</color>
+    <color name="text_tip">#666666</color>
+    <color name="text_sub">#999999</color>
+    <color name="text_hint">#bbbbbb</color>
+    <color name="text_light">#cccccc</color>
+    <color name="text_desc">#4A4A4A</color>
+    <color name="text_notice">#997800</color>
+
+</resources>
