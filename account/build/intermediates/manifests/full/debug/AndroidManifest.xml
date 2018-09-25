@@ -8,4 +8,15 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="28" />
 
+    <application>
+        <activity android:name="com.github.pgycode.account.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.github.pgycode.account.LoginActivity" />
+    </application>
+
 </manifest>

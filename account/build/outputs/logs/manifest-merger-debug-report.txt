@@ -1,26 +1,46 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
-INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
-INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
-INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
-INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
-INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
-INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
+INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
 	package
 		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:2:5-41
 		INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml
 		INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml
-		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
+		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
 		INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml
-		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-2:44
+		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:1-17:12
 		INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:4:5-15:19
+activity#com.github.pgycode.account.WelcomeActivity
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:6:9-11:20
+	android:name
+		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:6:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:7:13-10:29
+action#android.intent.action.MAIN
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:8:17-68
+	android:name
+		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:9:17-76
+	android:name
+		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:9:27-74
+activity#com.github.pgycode.account.LoginActivity
+ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:13:9-50
+	android:name
+		ADDED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml:13:19-48
 uses-sdk
 INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/haha/AndroidStudioProjects/ADemo/account/src/main/AndroidManifest.xml

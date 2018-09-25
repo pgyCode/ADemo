@@ -7,12 +7,9 @@
     <dimen name="theme_corner_radius">2dp</dimen>
 
     <!--字体大小-->
-    <dimen name="text_size_tiny">10dp</dimen>
-    <dimen name="text_size_small">12dp</dimen>
-    <dimen name="text_size_normal">14dp</dimen>
-    <dimen name="text_size_middle">16dp</dimen>
-    <dimen name="text_size_big">18dp</dimen>
-    <dimen name="text_size_huge">24dp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_middle">16sp</dimen>
+    <dimen name="text_size_big">20sp</dimen>
 
     <!--统一表单栏配置-->
     <dimen name="list_item_common_height">48dp</dimen>
