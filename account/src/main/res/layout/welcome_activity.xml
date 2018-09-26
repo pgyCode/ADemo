@@ -24,7 +24,6 @@
         android:textSize="@dimen/text_size_big"
         android:id="@+id/txt_name"
         android:textColor="@color/MAIN"
-        android:text="有赞.零售"
         />
 
     <TextView

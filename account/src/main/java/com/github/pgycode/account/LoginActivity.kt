@@ -1,37 +1,36 @@
 package com.github.pgycode.account
 
+import android.graphics.drawable.Drawable
 import android.os.Bundle
+import android.support.v4.content.ContextCompat
 import android.support.v7.app.AppCompatActivity
 import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.Scheduler
+import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
+import io.reactivex.functions.Function
+import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.login_activity.*
 
 
 class LoginActivity : AppCompatActivity() {
 
-    lateinit var observable: Observable<String>
+    lateinit var observable: Observable<Drawable>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login_activity)
 
-        observable = Observable.create {
-            emitter ->
-            emitter.onNext("123")
-            emitter.onNext("1234")
-            emitter.onNext("12345")
-        }
-
-        observable.subscribe(object: Observer<String>{
+        observable.subscribe(object: Observer<Drawable?>{
 
             override fun onComplete() {
                 println("onComplete")
             }
 
-            override fun onNext(t: String) {
-                println(t)
+            override fun onNext(t: Drawable) {
+                println(Thread.currentThread().toString())
+                imgIcon.setImageDrawable(t)
             }
 
             override fun onError(e: Throwable) {
@@ -45,7 +44,4 @@ class LoginActivity : AppCompatActivity() {
         })
 
     }
-
 }
-
-

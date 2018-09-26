@@ -10,6 +10,7 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.welcome_activity)
 
-        startActivity(Intent(this, LoginActivity::class.java))
+        startActivity(Intent(this, Login1Activity::class.java))
+        finish()
     }
 }
